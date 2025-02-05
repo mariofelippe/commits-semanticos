@@ -1,10 +1,12 @@
-# Padrão de Commits Semânticos
-___
+# Padrão de Commits Semânticos 💣
+
 Repositório para concentrar as informações de padrões de mensagens em commits, branchs, issues.
 
 Essas informações são recomendações mínimas a serem usadas nos commits.
+
+---
   
-#### Utilize o seguinte formato para padronizar as mensagens de commit:
+#### Utilize o seguinte formato para padronizar as mensagens de commit 📝:
 
 ~~~ 
 <tipo>[escopo opcional]: <descrição curta>
@@ -12,7 +14,7 @@ Essas informações são recomendações mínimas a serem usadas nos commits.
 [rodapé(s) opcional(is)]
 ~~~
 
-### Tipos Comuns:
+### Tipos Comuns 📌
 - `feat`: Nova funcionalidade.
 - `fix`: Correção de bug. 
 - `docs`: Alterações na documentação.
@@ -21,6 +23,8 @@ Essas informações são recomendações mínimas a serem usadas nos commits.
 - `perf`: Melhorias de performance. 
 - `test`: Adição ou correção de testes. 
 - `chore`: Atualizações em tarefas de manutenção (build, configurações, etc).
+- `build`: Alteração em arquivos de build e dependências.
+- `env`: Modificações em arquivos de configurações, containers e CI.
 
 ### Exemplos:
 - `feat(auth): adicionar endpoint de login`
@@ -28,13 +32,13 @@ Essas informações são recomendações mínimas a serem usadas nos commits.
 - `docs: atualizar README com instruções de deploy`
 - `refactor(payment): refatorar lógica de cálculo de juros`
 
-### Dicas Adicionais:
+### Dicas Adicionais 🎉
 - **Mensagem Concisa e Descritiva**: A linha de título deve ter até 72 caracteres e ser escrita no imperativo.
 - **Corpo da Mensagem (opcional)**: Use uma linha em branco após o título e inclua mais detalhes se necessário.
 - **Referência de Issues**: Se o commit resolver ou estiver relacionado a uma issue, adicione Closes #número ou Refs #número.
 
-## Criação e Nomeação de Branches
-___
+## Criação e Nomeação de Branches 🔀
+
 Padronize o nome das branches para facilitar a organização e a comunicação.
 
 ### Formato:
@@ -43,7 +47,7 @@ Padronize o nome das branches para facilitar a organização e a comunicação.
 <tipo>/<ID da issue opcional>-<nome-descritivo>
 ~~~
 
-### Tipos de Branches:
+### Tipos de Branches 📌
 - `feature`: Para novas funcionalidades.
 - `bugfix`: Para correção de bugs.
 - `hotfix`: Para correções urgentes em produção.
@@ -54,12 +58,14 @@ Padronize o nome das branches para facilitar a organização e a comunicação.
 - `bugfix/456-corrigir-endpoint-consulta`
 - `hotfix/789-corrigir-falha-producao`
 
-### Dicas Adicionais:
+### Dicas Adicionais 🎉
 - **ID da Issue**: Incluir o número da issue para facilitar o rastreamento.
 - **Nome Descritivo**: Usar nomes que resumam a finalidade da branch, evitando abreviações excessivas.
 
-## Documentação de Issues e Ações
-___
+---
+
+## Documentação de Issues e Ações 📋
+
 
 **Template para Issues:**
 
